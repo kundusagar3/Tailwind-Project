@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TAILWIND PROJECT</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="border-2 border-solid w-[724px] h-[380px] my-12 mx-auto">
+        <header class="bg-black text-white py-5 flex flex-col items-center h-[36%]">
+          <h1 class="text-3xl">Retro Shoe</h1>
+          <div class="flex gap-3.5">
+            <p>$89.00</p>
+            <h3 class="text-[#34c0eb]">IN STOCK</h3>
+          </div>
+        </header>
+        <main class="h-[80%]">
+          <img src="assets/shoe.jpg" alt="shoe_photo" class="z-10 absolute top-[65px] left-[348px] shadow-[1px_5px_0px_0px_#30D5C8]">
+          <section>
+            <ul class="flex justify-center py-8 translate-x-[54px]">
+              <li class="px-5.5 text-l"><span class="bg-black text-white py-2.5 px-3 shadow-[1px_1px_0px_1px_#30D5C8]">XS</span></li>
+              <li class="px-5.5 text-l">S</li>
+              <li class="px-5.5 text-l">M</li>
+              <li class="px-5.5 text-l">L</li>
+              <li class="px-5.5 text-l">XL</li>
+            </ul>
+          </section>
+          <section class="flex gap-4 items-center justify-center translate-x-[81px] mt-3 mb-6.5">
+            <button type="button" class="bg-[#30D5C8] px-5.5 py-2.5 border-3 font-bold">BUY NOW</button>
+            <button type="button" class="border-[1px] border-gray-300 px-5.5 py-2.5 font-bold">ADD TO BAG</button>
+            <i class="fa-solid fa-heart"></i>
+          </section>
+          <section class="text-center translate-x-[69px] text-gray-500 font-[auto]"><p>Free shipping on all continental US orders.</p></section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
